@@ -1,17 +1,14 @@
 #include "Player.h"
 #include "Rooms.h"
+#include "Grid.h"
 #include <windows.h>
 #include <iostream>
 using namespace std;
 
 
-Room::Room(bool a, bool b, bool c, bool  d, const char *word)
+Room::Room(const char *word)
 {
-	a = c_dark;
-	b = c_locked;
-	c = c_enemy;
-	d = c_weapon;
-	word = c_entry;
+	
 
 
 
@@ -20,3 +17,14 @@ Room::Room(bool a, bool b, bool c, bool  d, const char *word)
 
 
 }
+
+Player::Player(int x, int y, bool bannana)
+{
+	x_position = x;
+	y_position = y;
+	bannana = p_bannana;
+	
+
+}
+
+
