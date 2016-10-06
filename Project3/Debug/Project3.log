@@ -1,43 +1,149 @@
 ﻿  String.cpp
-c:\users\armad\onedrive\documents\github\text-based-game\project3\mystring.h(14): error C2061: syntax error: identifier 'Room'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2143: syntax error: missing ';' before '*'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2238: unexpected token(s) preceding ';'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(19): error C2061: syntax error: identifier 'Room'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
-  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\string.cpp(62): warning C4305: 'return': truncation from 'int' to 'bool'
-  Main.cpp
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
-  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\main.cpp(98): error C2059: syntax error: '}'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\main.cpp(98): error C2143: syntax error: missing ';' before '}'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\mystring.h(14): error C2061: syntax error: identifier 'Room'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(10): error C2061: syntax error: identifier 'Room'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C2143: syntax error: missing ';' before '*'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C2238: unexpected token(s) preceding ';'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\rooms.h(4): error C2059: syntax error: 'using namespace'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\rooms.h(4): error C2238: unexpected token(s) preceding ';'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(6): error C2059: syntax error: 'using namespace'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(6): error C2238: unexpected token(s) preceding ';'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(9): error C3254: 'Player': class contains explicit override '{ctor}' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(9): error C2838: '{ctor}': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(19): error C3254: 'Player': class contains explicit override 'stringlength' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(19): error C2838: 'stringlength': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(30): error C3254: 'Player': class contains explicit override 'Length' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(30): error C2838: 'Length': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(45): error C3254: 'Player': class contains explicit override 'Compare' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(45): error C2838: 'Compare': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(89): error C3254: 'Player': class contains explicit override 'characterAtIndex' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(89): error C2838: 'characterAtIndex': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(95): error C3254: 'Player': class contains explicit override 'Append' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(95): error C2838: 'Append': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(113): error C3254: 'Player': class contains explicit override 'Prepend' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(113): error C2838: 'Prepend': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(136): error C3254: 'Player': class contains explicit override 'ToLower' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(136): error C2838: 'ToLower': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(153): error C3254: 'Player': class contains explicit override 'ToUpper' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(153): error C2838: 'ToUpper': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(172): error C3254: 'Player': class contains explicit override 'constChar' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(172): error C2838: 'constChar': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(178): error C3254: 'Player': class contains explicit override 'subString' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(178): error C2838: 'subString': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(207): error C3254: 'Player': class contains explicit override 'stringInput' but does not derive from an interface that contains the function declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\string.cpp(207): error C2838: 'stringInput': illegal qualified name in member declaration
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(9): fatal error C1075: the left brace '{' was unmatched at the end of the file
   Definition.cpp
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2143: syntax error: missing ';' before '*'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2238: unexpected token(s) preceding ';'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(19): error C2061: syntax error: identifier 'MyString'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
-  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
-c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(10): error C2061: syntax error: identifier 'Room'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C2143: syntax error: missing ';' before '*'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\player.h(14): error C2238: unexpected token(s) preceding ';'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2059: syntax error: 'string'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\excpt.h(14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2059: syntax error: 'string'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\shared\windef.h(17): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\minwinbase.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processenv.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\fileapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\debugapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\utilapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\handleapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\errhandlingapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\fibersapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\namedpipeapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\profileapi.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\heapapi.h(35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\ioapiset.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\synchapi.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\interlockedapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processthreadsapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(62): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\memoryapi.h(41): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\threadpoollegacyapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\threadpoolapiset.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\bemapiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\jobapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wow64apiset.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\libloaderapi.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\securitybaseapi.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\namespaceapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\systemtopologyapi.h(33): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\processtopologyapi.h(36): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\securityappcontainer.h(39): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\realtimeapiset.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(67): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winbase.h(8820): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(48): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winuser.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winnls.h(24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\wincon.h(30): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\verrsrc.h(133): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winver.h(23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winreg.h(44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\winnetwk.h(32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\dde.h(22): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\dde.h(22): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\ddeml.h(18): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\ddeml.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(264): error C3646: 'bRed': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(264): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(265): error C3646: 'bGreen': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(265): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(266): error C3646: 'bBlue': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(266): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(267): error C3646: 'bExtra': unknown override specifier
+c:\program files (x86)\windows kits\8.1\include\um\dlgs.h(267): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\8.1\include\um\lzexpand.h(26): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\lzexpand.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h(29): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\mmsyscom.h(29): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h(45): error C2059: syntax error: 'string'
+c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h(45): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\program files (x86)\windows kits\8.1\include\um\mmsystem.h(45): fatal error C1003: error count exceeds 100; stopping compilation
+  Main.cpp
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\main.cpp(7): error C2059: syntax error: 'using namespace'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\main.cpp(7): error C2238: unexpected token(s) preceding ';'
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\main.cpp(12): error C3769: 'Player': a nested class cannot have the same name as the immediately enclosing class
+c:\users\dylan.mitchell\documents\visual studio 2015\projects\project3\project3\main.cpp(66): fatal error C1075: the left brace '{' was unmatched at the end of the file
   Generating Code...
