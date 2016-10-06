@@ -6,6 +6,21 @@
 
 using namespace std;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 int main()
 {
 	Player player1 = Player(0, 0, 0);
@@ -54,35 +69,7 @@ int main()
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	for (int y = 0; y < 16; y++)
-	{
-		for (int x = 0; x < 16; x++);
-		{
-			Room n = Room(x, y);
-			nodes[count];
-			count++;
-		}
+
 
 
 

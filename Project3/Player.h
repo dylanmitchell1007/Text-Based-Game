@@ -7,24 +7,18 @@ using namespace std;
 
 class Player
 {
-public:
+	Player(Room &room) :m_index(0), currentRoom(&room)
+	{
+		std::cout << currentRoom->m_description;
+	}
+		Room* currentRoom;
+	int m_index;
+	void MoveRight()
+	{
+		std::cout << currentRoom->m_description;
+		currentRoom++;
 
-void Player::move(Player test, char* room);
-
-Player() {}
-Room *location;
-Player(int x, int y, bool item);
-int p_ypos;
-int p_xpos;
-int P_North();
-int P_South();
-int P_West();
-int P_East();
-
-bool p_bannana;
-
-			
-
+	}
 
 
 
