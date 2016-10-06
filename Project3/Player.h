@@ -9,14 +9,18 @@ class Player
 {
 public:
 
+void Player::move(Player test, char* room);
+
 Player() {}
-
-Player(int x, int y, bool bannana);
-
-int p_North();
+Room *location;
+Player(int x, int y, bool item);
+int p_ypos;
+int p_xpos;
+int P_North();
 int P_South();
-int p_West();
-int p_East();
+int P_West();
+int P_East();
+
 bool p_bannana;
 
 			

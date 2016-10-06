@@ -1,0 +1,43 @@
+﻿  String.cpp
+c:\users\armad\onedrive\documents\github\text-based-game\project3\mystring.h(14): error C2061: syntax error: identifier 'Room'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2143: syntax error: missing ';' before '*'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2238: unexpected token(s) preceding ';'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(19): error C2061: syntax error: identifier 'Room'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
+  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\string.cpp(62): warning C4305: 'return': truncation from 'int' to 'bool'
+  Main.cpp
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
+  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\main.cpp(98): error C2059: syntax error: '}'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\main.cpp(98): error C2143: syntax error: missing ';' before '}'
+  Definition.cpp
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2143: syntax error: missing ';' before '*'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(15): error C2238: unexpected token(s) preceding ';'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\player.h(19): error C2061: syntax error: identifier 'MyString'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2059: syntax error: '{'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(18): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(25): error C2535: 'bool Room::CheckPlacement(int,int)': member function already defined or declared
+  c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(22): note: see declaration of 'Room::CheckPlacement'
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'x': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2065: 'y': undeclared identifier
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2143: syntax error: missing ')' before '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: '=='
+c:\users\armad\onedrive\documents\github\text-based-game\project3\rooms.h(26): error C2059: syntax error: ')'
+  Generating Code...
