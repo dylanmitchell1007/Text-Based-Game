@@ -11,7 +11,6 @@ public:
 	MyString(char *test);
 
 	int Length();
-	int CheckResponse(MyString, Room[][5]);
 	bool Compare(MyString a);
 	char characterAtIndex(int);
 	char * Append(MyString a);

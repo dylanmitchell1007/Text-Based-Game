@@ -8,12 +8,14 @@ using namespace std;
 class Room
 {
 public:
+	Room() {};
+	
 	Room(bool n, bool s, bool e, bool w, const char* description) : p_info(description)
 	{
+		p_info = description;
+	}
 
 
-
-}
 	const char* p_info;
 
 
