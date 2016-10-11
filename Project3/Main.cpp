@@ -6,61 +6,13 @@
 
 using namespace std;
 
-
-//class Player
-//{
-//	Player(Room &room) :m_index(0), currentRoom(&room)
-//{
-//	std::cout << currentRoom->p_info;
-//}
-//Room* currentRoom;
-//int m_index;
-//
-//void MoveRight()
-//{
-//	std::cout << currentRoom->p_info;
-//	currentRoom++;
-//}
-//
-//void moveleft()
-//{
-//	std::cout << currentRoom->p_info;
-//	currentRoom--;
-//}
-//
-//void movedown()
-//{
-//	m_index += 4;
-//	if (m_index < 16)
-//	{
-//		currentRoom += m_index;
-//		cout << "Your currently in" << currentRoom->p_info;
-//	}
-//	else
-//	{
-//		cout << currentRoom->p_info;
-//		cout << "No";
-//
-//	}
-//}
-//	void moveup()
-//	{
-//		m_index -= 4;
-//		if (m_index < 0)
-//		{
-//			currentRoom -= m_index;
-//			cout << currentRoom->m_description;
-//
-//		}
-//
-
 class Player
 {
 public:
 
-	Player(Room &room) :m_index(0), currentRoom(&room)
+	Player(Room &room) :m_index(0), currentRoom(&room) //Setting player to the room 0.
 	{
-		std::cout << currentRoom->p_info;
+		std::cout << currentRoom->p_info; 
 	}
 	Room* currentRoom;
 	int m_index;
@@ -84,7 +36,7 @@ public:
 		if (m_index < 16)
 		{
 			currentRoom += 4;
-			cout << "Your currently in" << currentRoom->p_info;
+			cout << "s" << currentRoom->p_info;
 		}
 		else
 		{
@@ -112,7 +64,6 @@ public:
 
 	int x_position;
 	int y_position;
-	bool bannana = false;
 
 
 
@@ -130,25 +81,25 @@ int main()
 
 	int count = 0;
 
-	Room room0 = Room(0, 1, 1, 0, "This room is empty \n Entering Room 0");
-	Room room1 = Room(0, 1, 1, 1, "This room is empty \n Entering Room 1");
-	Room room2 = Room(0, 1, 1, 1, "This room is empty \n Entering Room 2");
-	Room room3 = Room(0, 1, 0, 1, "This room is empty \n Entering Room 3");
+	Room room0 = Room(0, 1, 1, 0, "This room is Empty \n \nThere is a door behind you. \n There is a door to your right." );
+	Room room1 = Room(0, 1, 1, 1, "This room is Occupied by a Family of 4. \n \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right.\n \nChoose a direction. \n \n");
+	Room room2 = Room(0, 1, 1, 1, "This room is full of Empty Boxes  \n \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right. \n \nChoose a direction. \n \n");
+	Room room3 = Room(0, 1, 0, 1, "This room has a underground Door. \n \nThere is a door behind you. \nThere is a door to your left. \n \nChoose a direction.\n \n  \n \n \n \n Enter the code to the door to escape. \n \n If you do not know the password, you must search for it ");
 
-	Room room4 = Room(1, 1, 0, 0, "This room is empty \n Entering Room 4");
-	Room room5 = Room(1, 1, 1, 1, "This room is empty \n Entering Room 5");
-	Room room6 = Room(1, 1, 1, 1, "This room is empty \n Entering Room 6");
-	Room room7 = Room(1, 1, 0, 1, "This room is empty \n Entering Room 7");
+	Room room4 = Room(1, 1, 0, 0, "This room has a bag of rocks on the floor. \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your right. \n \nChoose a direction. \n \n ");
+	Room room5 = Room(1, 1, 1, 1, "This room is has 6 Winnie dogs in it. \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right. ");
+	Room room6 = Room(1, 1, 1, 1, "This room is Purple \n \nThere is door in front of you. \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right \n \nChoose a direction. \n \n");
+	Room room7 = Room(1, 1, 0, 1, "This room is Orange \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \n \nChoose you direction. \n \n");
 
-	Room room8 = Room(1, 1, 0, 0, "This room is empty \n Entering Room 8");
-	Room room9 = Room(1, 1, 1, 1, "This room is empty \n Entering Room 9");
-	Room room10 = Room(1, 1, 1, 1, "This room is empty \n Entering Room 10");
-	Room room11 = Room(1, 1, 0, 1, "This room is empty \n Entering Room 11");
+	Room room8 = Room(1, 1, 0, 0, "This room is White \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your right. \n \nChoose a direction. \n \n");
+	Room room9 = Room(1, 1, 1, 1, "This room is Grey\n \nThere is a door in front of you. \nThere is a door behind you.\nThere is a door to your left. \nThere is a door to your right. \n \nChoose a direction. \n \n");
+	Room room10 = Room(1, 1, 1, 1, "This room is Black \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right.\n \nChoose a direction. \n \n");
+	Room room11 = Room(1, 1, 0, 1, "This room has a note that says 'Password: p' \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \n \nChoose a direction. \n \n");
 
-	Room room12 = Room(1, 0, 0, 1, "This room is empty \n Entering Room 12");
-	Room room13 = Room(1, 0, 1, 0, "This room is empty \n Entering Room 13");
-	Room room14 = Room(1, 0, 1, 1, "This room is empty \n Entering Room 14");
-	Room room15 = Room(1, 0, 1, 0, "You Found the exit!!!!!");
+	Room room12 = Room(1, 0, 0, 1, "This room is Green \n \nThere is a door in front of you. \nThere is a door to your right. \n \nChoose a direction. \n \n");
+	Room room13 = Room(1, 0, 1, 0, "This room is Yellow \n \nThere is a door in front of you. \nThere is a door to your left. \nThere is a door to your right. \n \n");
+	Room room14 = Room(1, 0, 1, 1, "This is room is Red \n \nThere is a door in front of you. \nThere is a door to your left. \nThere is a door to your right. \n \n");
+	Room room15 = Room(1, 0, 1, 0, "This room is Blue \n \n There is a door in front of you. \nThere is a door to your left. \n \nChoose a direction. \n \n");
 
 	Room nodes[16] = {
 	room0,room1,room2,room3,
@@ -188,6 +139,8 @@ int main()
 				cin >> gameInput;
 				system("cls");
 
+		
+
 
 				switch (gameInput)
 				{
@@ -213,14 +166,29 @@ int main()
 					break;
 
 				}
+				case 'p':
+				{
+					cout << "\n \n";
+					cout << "Congragulations you have Escaped The Random Maze!! \n \n";
+					system("pause");
+					return 0;
+				}
 
+				default:
+				{
+					system("cls");
+					cout << "\n \n";
+					cout << "Invalid Entry.";
+					cout << "\n \n";
+					break;
+				}
 
 				}
 
 			}
 		}
 
-		}
+		
 
 	}
 	return 1;

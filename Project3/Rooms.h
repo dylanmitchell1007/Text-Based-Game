@@ -5,7 +5,7 @@ using namespace std;
 
 
  
-class Room
+class Room //My class named Room
 {
 public:
 	Room() {};
@@ -17,7 +17,10 @@ public:
 
 
 	const char* p_info;
-
+	bool g_north;
+	bool g_south;
+	bool g_east;
+	bool g_west;
 
 
 
