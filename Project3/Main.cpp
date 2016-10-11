@@ -62,8 +62,6 @@ public:
 		}
 	}
 
-	int x_position;
-	int y_position;
 
 
 
@@ -75,9 +73,6 @@ int main()
 {
 
 	bool runGame = true;
-	int x = 0;
-
-	int y = 0;
 
 	int count = 0;
 
@@ -94,7 +89,7 @@ int main()
 	Room room8 = Room(1, 1, 0, 0, "This room is White \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your right. \n \nChoose a direction. \n \n");
 	Room room9 = Room(1, 1, 1, 1, "This room is Grey\n \nThere is a door in front of you. \nThere is a door behind you.\nThere is a door to your left. \nThere is a door to your right. \n \nChoose a direction. \n \n");
 	Room room10 = Room(1, 1, 1, 1, "This room is Black \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \nThere is a door to your right.\n \nChoose a direction. \n \n");
-	Room room11 = Room(1, 1, 0, 1, "This room has a note that says 'Password: p' \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \n \nChoose a direction. \n \n");
+	Room room11 = Room(1, 1, 0, 1, "This room has a note that says 'Password: p' \n \n \nThere is a door in front of you. \nThere is a door behind you. \nThere is a door to your left. \n \nChoose a direction. \n \n");
 
 	Room room12 = Room(1, 0, 0, 1, "This room is Green \n \nThere is a door in front of you. \nThere is a door to your right. \n \nChoose a direction. \n \n");
 	Room room13 = Room(1, 0, 1, 0, "This room is Yellow \n \nThere is a door in front of you. \nThere is a door to your left. \nThere is a door to your right. \n \n");
@@ -139,8 +134,16 @@ int main()
 				cin >> gameInput;
 				system("cls");
 
-		
+				if (player1.m_index > 16)
+				{
+					player1.m_index = 16;
+				}
 
+				if (player1.m_index < 0)
+				{
+					player1.m_index = 0;
+
+				}
 
 				switch (gameInput)
 				{
@@ -184,9 +187,11 @@ int main()
 				}
 
 				}
-
 			}
+
 		}
+		}
+
 
 		
 
